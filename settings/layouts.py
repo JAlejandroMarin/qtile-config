@@ -2,7 +2,7 @@ from libqtile import layout
 
 layout_conf = {
     'border_width': 2,
-    'margin': 2
+    'margin': 3
 }
 
 layouts = [
