@@ -1,7 +1,7 @@
-from libqtile.lazy import lazy
+# from libqtile.lazy import lazy
 from settings.keys import keys, mod
-from settings.groups import groups
 from settings.widgets import widget_defaults, extension_defaults
+from settings.groups import groups
 from settings.screens import screens
 from settings.layouts import layouts, floating_layout
 from settings.mouse import mouse

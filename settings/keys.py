@@ -60,7 +60,8 @@ keys = [
     Key([mod], "e", lazy.spawn("nautilus"), desc="launch nautilus"),
     Key([mod, mod1], "l",
         lazy.spawn(
-        "i3lock -i /usr/share/backgrounds/i3_screen_images/awesome.png"),
+        "i3lock -c 808080"),
         "launch i3lock a screen saver"),
-    Key([mod], "s", lazy.spawn("flameshot gui"), desc="run flameshot")
+    Key([mod], "s", lazy.spawn("flameshot gui"), desc="run flameshot gui"),
+    Key([mod, 'shift'], 's', lazy.spawn('flameshot launcher'), desc='run flameshot screen')
 ]
