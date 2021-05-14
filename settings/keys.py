@@ -62,6 +62,6 @@ keys = [
         lazy.spawn(
         "i3lock -c 808080"),
         "launch i3lock a screen saver"),
-    Key([mod], "s", lazy.spawn("flameshot gui"), desc="run flameshot gui"),
-    Key([mod, 'shift'], 's', lazy.spawn('flameshot launcher'), desc='run flameshot screen')
+    Key([mod, 'shift'], "s", lazy.spawn("flameshot gui"), desc="run flameshot gui"),
+    Key([mod], 's', lazy.spawn('flameshot launcher'), desc='run flameshot screen')
 ]
