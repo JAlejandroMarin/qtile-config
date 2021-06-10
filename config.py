@@ -13,6 +13,6 @@ main = None  # WARNING: this is deprecated and will be removed soon
 follow_mouse_focus = False
 bring_front_click = False
 cursor_warp = False
-auto_fullscreen = True
+auto_fullscreen = False
 focus_on_window_activation = "smart"
 wmname = "LG3D"
