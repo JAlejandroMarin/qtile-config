@@ -60,7 +60,7 @@ def workspaces():
         separator(),
         # widget.Prompt(),
         widget.WindowName(
-            **base_config(),
+            **base_config(fg="light"),
             fontsize=16,
         ),
         separator(),

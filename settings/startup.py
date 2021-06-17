@@ -1,1 +1,4 @@
-startup_command = 'sh ~/.config/qtile/scripts/startup.sh'
+from os import path
+from .path import qtile_path
+
+startup_path = path.join(qtile_path, "startup.sh")
